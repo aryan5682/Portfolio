@@ -1,0 +1,76 @@
+.footer{
+    background: rgb(223, 215, 205);
+    height: min-content;
+    min-width: 750px;
+}
+.follow{
+    display:flex;
+    justify-content: space-around;
+  align-items: center;
+}
+
+
+.social-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 50px;
+}
+
+  a.facebook {
+    color: #4968ad;
+  }
+  a.linkdin {
+    color:rgb(24, 24, 152);
+  }
+  
+  a.instagram {
+    color: black;
+  }
+  a.whatsapp{
+    color: green;
+  }
+  a.github {
+    color: black;
+  }
+  a.Email{
+    color: black;
+  }
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  .links{
+    display:flex;
+    justify-content: space-around;
+  align-items: center;
+  }
+  .profile{
+    display: flex;
+    flex-direction: column;
+   padding: 25px 50px;
+   gap: 1rem;
+  }
+  .profile h3{
+    letter-spacing: 0.3rem;
+    font-size: 1.3rem;
+  }
+  .profile a{
+    color:brown;
+    font-size: 1.1rem;
+  }
+  .Address{
+    display: flex;
+    flex-direction: column;
+   padding: 25px 50px;
+   gap: 1rem;
+  }
+  .Address h3{
+    letter-spacing: 0.3rem;
+    font-size: 1.3rem;
+  }
+  .Address p{
+    color:brown;
+    font-size: 1.1rem;
+  }

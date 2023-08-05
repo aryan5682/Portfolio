@@ -1,0 +1,58 @@
+.grades{
+    width: 100%;
+    min-width: 750px;
+    /* height: 70vh; */
+    padding: 50px 70px;
+    background: rgb(227, 184, 132);
+   /* color: rgb(184, 130, 65); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.cnt h1{
+    letter-spacing: 3px;
+}
+.Semester{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  margin-top: 70px;
+    gap:2rem;
+}
+.Semester .first{
+    padding: 10px 20px;
+    width: 250px;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    box-shadow: var(--box-shadow);
+}
+.Semester .Second{
+    padding: 10px 20px;
+    width: 250px;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    box-shadow: var(--box-shadow);
+}
+.Semester .first p{
+    font-size: 1.2rem;
+}
+.Semester .Second p{
+    font-size: 1.2rem;
+}
